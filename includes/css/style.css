@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************************** HOMESCREEN.HTM ***************************************/
+
+	html, body {
+	width: 100%;
+  	height: 100%;
+  	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEzMDAgODAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImhhdDAiIGdyYWRpZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB4MT0iNTAlIiB5MT0iODIlIiB4Mj0iNTAlIiB5Mj0iMTglIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQyYWRhNiIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzVlNmI4ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTMwMCIgaGVpZ2h0PSI4MDAiIGZpbGw9InVybCgjaGF0MCkiIC8+Cjwvc3ZnPg==);
+background-image: -moz-linear-gradient(bottom, #42ada6 18%, #5e6b8e 82%);
+background-image: -o-linear-gradient(bottom, #42ada6 18%, #5e6b8e 82%);
+background-image: -webkit-linear-gradient(bottom, #42ada6 18%, #5e6b8e 82%);
+background-image: linear-gradient(bottom, #42ada6 18%, #5e6b8e 82%);
+  	font-family: 'Lato', sans-serif;
+  		font-weight: 300;
+	}
+
+	.home {
+		background: url(../images/bg2.png) no-repeat center center fixed !important; 
+  		-webkit-background-size: cover !important;
+  		-moz-background-size: cover !important;
+  		-o-background-size: cover !important;
+  		background-size: cover !important;
+	}
+
+	.wrapper {
+		width: 1300px;
+		margin: 0 auto;
+	}
+
+	section.search {
+		position: relative;
+	}
+
+	section.search button {
+		position: relative;
+		margin-left: -90px;
+		height: 40px;
+		width: 80px;
+		border-radius: 4px;
+		background: #5f6b8f;
+		color: #fff;
+		font-size: 14px;
+		box-shadow: none;
+		border: none;
+		outline: none;
+	}
+
+	section.search input {
+		background: #fff url(../images/s-icon.png) no-repeat;
+		background-position: 10px;
+		position: relative;
+		width: 650px;
+		height: 50px;
+		border-radius: 4px;
+		font-size: 14px;
+		text-indent: 40px;
+		font-weight: 400 !important;
+		box-shadow: none;
+		color: #859aa0;
+		border: none;
+		outline: none;
+	}
+
+	section.search-wrapper {
+		position: relative;
+		display: inline-block;
+		text-align: center;
+		margin: 0 auto;
+		width: 1300px;
+	}
+
+	section.logo img {
+		padding-top: 200px;
+	}
+
+	section.search {
+		padding-top: 60px;
+	}
+
+	::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #859aa0;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #859aa0;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #859aa0;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #859aa0;
+}
+
+
+/****************************** PROFILE.HTM ***************************************/
+
+
+
+/* Profile-info */
+section.profile-info {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding-top: 150px;
+  text-shadow: 0 2px 0 rgba(35,31,32,.15); 
+}
+
+.profile-image img {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+h1.profile-name {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+p.profile-paragraph {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+
+/* Skills */
+section.skills {
+  margin: 0 auto !important;
+  text-align: center;
+  position: relative;
+}
+
+ul.list-of-skills {
+  margin-top: 35px;
+  padding-bottom: 35px;
+}
+
+
+ul.list-of-skills li {
+  background: rgba(0,0,0,0.25);
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #d9e0e1;
+  padding: 10px;
+  border-radius: 4px;
+  transition: linear 0.4s;
+  -moz-transition: linear 0.4s;
+  -ms-transition: linear 0.4s;
+  -o-transition: linear 0.4s;
+  -webkit-transition: linear 0.4s;
+}
+
+ul.list-of-skills li:hover {
+  background: #5bc7a7;
+}
+
+hr.sep {
+   background: rgba(0,0,0,0.10);
+   height: 2px;
+   position: relative;
+   width: 200px;
+   border: none;
+}
+
+section.social {
+	text-align: center;
+}
+
+section.social ul li {
+	display: inline-block;
+	margin: 15px;
+}
+
+/****************************** LOGIN.HTM ***************************************/
+
+.signin-container {
+	background: #fff;
+	width: 329px;
+	height: 329px;
+	border-radius: 4px;
+	padding-top: 50px;
+	position: relative;
+	margin: 0 auto;
+	top: 150px;
+}
+
+.signin-wrapper {
+	width: 260px;
+	margin: 0 auto;
+}
+
+.signin-container form h3, h3.password {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 14px;
+	color: #79899f;
+	font-weight: 400;
+}
+
+h3.password {
+	text-align: center;
+	padding-top: 35px;
+}
+
+h3.password a {
+	color: #70a0eb;
+}
+
+.signin-container input.field {
+	width: 260px;
+	height: 25px;
+	border-radius: 2px;
+	text-indent: 10px;
+	color: #79899f;
+	box-shadow: none;
+	border: 2px solid #d1dbe1;
+}
+
+.signin-container button {
+	background: #577b95;
+	width: 266px;
+	height: 45px;
+	border: none;
+	box-shadow: none;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.checkbox {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
